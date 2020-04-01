@@ -1,0 +1,29 @@
+.Home {
+  height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -6rem;
+  min-height: 35rem;
+}
+.Home::before {
+  content: "";
+  min-height: 6rem;
+}
+
+.Home h4 {
+  color: var(--blue);
+}
+.Home h1 {
+  color: var(--white);
+  font-size: 4rem;
+}
+.Home h2 {
+  color: var(--blue);
+  font-size: 3rem;
+}
+.Home p {
+  color: var(--gray);
+  max-width: 30rem;
+}

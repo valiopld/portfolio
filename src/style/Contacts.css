@@ -1,0 +1,43 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+}
+.Contacts::before {
+  display: inline-block;
+  content: "";
+  height: 5rem;
+}
+
+.Contacts .text {
+  color: var(--white);
+  margin: 0 auto 0 auto;
+  max-width: 50rem;
+  text-align: center;
+}
+.linksContainer {
+  margin: 2rem auto;
+  display: flex;
+}
+.social,
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  align-items: flex-end;
+  margin-right: 1rem;
+}
+.social span {
+  color: var(--blue);
+}
+.links a {
+  color: var(--gray);
+}
+.links a:hover {
+  color: var(--white);
+}
+
+.contactButton {
+  margin: 5rem auto;
+}

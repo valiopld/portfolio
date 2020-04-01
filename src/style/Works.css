@@ -1,0 +1,139 @@
+.Works {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Works::before {
+  display: inline-block;
+  content: "";
+  height: 5rem;
+}
+
+.Works .projectContainer {
+  display: flex;
+  width: 90%;
+  margin: 3rem auto;
+}
+.Works .projectContainer .image {
+  display: block;
+  width: 70%;
+  height: 26rem;
+
+  border: 1px solid var(--black);
+  box-shadow: 0 0 1rem;
+  filter: brightness(50%) sepia(100%) hue-rotate(130deg);
+  cursor: pointer;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.Works .projectContainer .image:hover {
+  filter: unset;
+}
+
+.Works .projectContainer .image:hover ~ .projectInfo .dynamic,
+.Works .projectContainer .projectInfo .dynamic:hover {
+  transform: translateX(0rem);
+}
+
+/*left/right Side of the project Container Style*/
+.Works .projectContainer .projectInfo {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.Works .projectContainer .projectName {
+  display: inline-block;
+  position: relative;
+  font-size: 1.9rem;
+  color: var(--blue);
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+.projectName.projectName:hover {
+  color: var(--gray);
+}
+.Works .projectContainer .static,
+.Works .projectContainer .dynamic {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  box-shadow: 0 0 1rem black;
+  font-size: 0.9rem;
+  background-color: var(--black);
+  color: var(--gray);
+}
+
+.Works .projectContainer .static {
+  width: 25rem;
+  position: relative;
+  left: -11rem;
+  z-index: 1;
+}
+.Works .projectContainer .dynamic {
+  width: 14rem;
+  height: 8rem;
+  transform: translateX(-18rem);
+  transition: all 0.5s;
+}
+
+/*Icons of the project Container*/
+.Works .projectContainer .projectInfo .iconsContainer {
+  display: flex;
+  width: 5rem;
+  height: 2rem;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+.Works .projectContainer .projectInfo .iconsContainer .icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(70%);
+  transition: all 0.5s;
+}
+
+.Works .icon:hover {
+  transform: scale(1.2) rotate(360deg);
+  cursor: pointer;
+}
+
+.Works .projectContainer .projectInfo .iconsContainer .gitIcon {
+  background-image: url("./icons/github.svg");
+}
+.Works .projectContainer .projectInfo .iconsContainer .webIcon {
+  width: 2.05rem;
+  height: 2.05rem;
+  background-image: url("./icons/web.png");
+  border: 1px solid black;
+  border-radius: 50%;
+}
+/*Reversed Container Style*/
+.Works .projectContainer2 {
+  flex-direction: row-reverse;
+}
+.Works .projectContainer2 .projectInfo {
+  align-items: flex-end;
+}
+
+.Works .projectContainer2 .static {
+  left: unset;
+  right: -11rem;
+}
+
+.Works .projectContainer2 .dynamic {
+  transform: translateX(18rem);
+}
+
+.Works .projectContainer2 .projectInfo .iconsContainer {
+  margin-right: 1rem;
+}
+
+.Works .projectContainer2 .projectName {
+  margin-right: 1rem;
+}

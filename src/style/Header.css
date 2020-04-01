@@ -1,0 +1,106 @@
+/* Main Header style*/
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+
+  padding: 0 2rem;
+
+  overflow: hidden;
+  z-index: 2;
+  transition: height 0.5s, background-color 1s;
+  overflow: visible;
+  background-color: var(--black);
+  box-shadow: 0 0.08rem 0.4rem;
+}
+.non-scrolled {
+  height: 6rem;
+  box-shadow: 0 0.1rem 1rem;
+}
+.scrolled {
+  height: 3rem;
+}
+
+/*Header Logo style*/
+.Header .logo {
+  width: 100%;
+  background-image: url("./images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.5s;
+}
+
+.non-scrolledLogo {
+  height: 4rem;
+}
+.scrolledLogo {
+  height: 2.5rem;
+}
+
+/*Header Menu style*/
+
+.Header .menu ul {
+  display: flex;
+  list-style: none;
+}
+.Header .menu ul li {
+  margin: 1rem 2rem;
+  color: var(--blue);
+  transition: all 0.5s;
+}
+.Header .menu ul li:hover {
+  color: var(--gray);
+  transform: scale(1.1);
+}
+
+/*Responsible Menu style*/
+
+.Header .resMenu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.Header .menu .resButton {
+  display: none;
+}
+.Header .resMenu .resButton {
+  font-family: sans-serif;
+  position: relative;
+  right: 2rem;
+  color: var(--blue);
+  font-size: 5rem;
+
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: right;
+}
+
+.Header .resMenu .resButton:hover {
+  color: var(--gray);
+}
+
+.Header .resMenu ul {
+  color: var(--blue);
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--black);
+  border: 1px solid black;
+  border-top: none;
+}
+
+.Header .resMenu ul li {
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.Header .resMenu ul li:hover {
+  background-color: var(--gray);
+  color: var(--black);
+}

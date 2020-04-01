@@ -1,0 +1,54 @@
+@font-face {
+  font-family: plovdivFont;
+  src: url("./OTF/PlovdivSans.otf");
+}
+
+@font-face {
+  font-family: plovdivFontBold;
+  src: url("./OTF/PlovdivDisplay-Bold.otf");
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: -webkit-linear-gradient(
+    to right,
+    var(--black),
+    var(--whiteBlack),
+    var(--black)
+  );
+
+  background: linear-gradient(
+    to left,
+    var(--black),
+    var(--whiteBlack),
+    var(--black)
+  );
+  width: 100%;
+  font-family: plovdivFont;
+
+  min-width: 19rem;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.button {
+  border: 2px solid var(--gray);
+  padding: 1rem;
+  color: var(--white);
+  background: transparent;
+  font-weight: bold;
+  transition: all 0.5s;
+  width: 13rem;
+  text-align: center;
+}
+
+.button:hover {
+  color: var(--white);
+  border: 2px solid var(--blue);
+
+  cursor: pointer;
+  background-color: var(--black);
+}

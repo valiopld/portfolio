@@ -1,0 +1,99 @@
+.About {
+}
+
+.About::before {
+  display: inline-block;
+  content: "";
+  height: 5rem;
+}
+
+.aboutContainer {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+/*Profile Picture Style*/
+.About .imageContainer {
+  margin: 2rem 0;
+  position: relative;
+}
+.About .profileIMG {
+  background-image: url("./images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: inline-block;
+  width: 16rem;
+  height: 19rem;
+
+  border: 1px solid var(--black);
+  cursor: crosshair;
+  filter: sepia(200%) hue-rotate(120deg);
+
+  transition: all 0.2s;
+}
+
+.About .profileIMG:hover {
+  filter: unset;
+}
+.About .profileIMG:hover + .borderImage {
+  transform: translate(0.5rem, 0.5rem);
+}
+.About .borderImage {
+  border: 2px solid var(--blue);
+  width: 16rem;
+  height: 19rem;
+  position: absolute;
+  top: 0;
+  transform: translate(1rem, 1rem);
+  z-index: -1;
+  transition: all 0.2s;
+}
+
+/*Info Style*/
+
+.About .infoContainer {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.title {
+  color: var(--white);
+  font-size: 2rem;
+  display: flex;
+  white-space: nowrap;
+  text-indent: 0;
+
+  margin-bottom: 2rem;
+}
+
+.title::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0px;
+  border: 1px solid var(--blue);
+  position: relative;
+  top: 1.7rem;
+  margin: 0 2rem;
+}
+.About .infoContainer .info {
+  color: var(--gray);
+  text-indent: 4rem;
+  font-size: 1.1rem;
+}
+
+.About .infoContainer .skillContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.About .infoContainer .skillContainer ul {
+  list-style: none;
+}
+.About .infoContainer .skillContainer ul li {
+  color: var(--blue);
+}

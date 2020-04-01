@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1100px) {
+  .Works .projectContainer .static {
+    left: -18rem;
+  }
+  .Works .projectContainer2 .static {
+    right: -18rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /*Header Responsive Style*/
+  .Header .resMenu {
+    display: block;
+  }
+  .Header .menu {
+    display: none;
+  }
+  .scrolled {
+    height: 5rem;
+  }
+  .Header .scrolledLogo {
+    height: 4rem;
+  }
+
+  /*Sides Responsive Style*/
+  .SideLinks {
+    display: none;
+  }
+  .SideName {
+    display: none;
+  }
+
+  /*Main Responsive Style*/
+  .Main {
+    width: 95%;
+    text-align: center;
+  }
+
+  /*Home Responsive Style*/
+  .Home {
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
+  .Home h1 {
+    font-size: 3rem;
+  }
+  .Home h2 {
+    font-size: 2rem;
+    white-space: unset;
+  }
+  .Home p {
+    margin: 2rem auto;
+    max-width: 80%;
+    text-align: justify;
+  }
+  .Home .button {
+    margin: 2rem auto;
+  }
+
+  /*About Responsive Style*/
+  .About::before {
+    height: 7rem;
+  }
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .About .infoContainer {
+    width: 90%;
+  }
+
+  /*Works Responsive Style*/
+  .Works {
+    width: 90%;
+    margin: 0rem auto;
+  }
+  .Works::before {
+    height: 7rem;
+  }
+  .Works .projectContainer {
+    display: block;
+    height: 26rem;
+    width: 100%;
+  }
+  .Works .projectContainer .image {
+    width: 100%;
+  }
+  .Works .projectContainer .projectInfo {
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 26rem;
+    top: 0;
+    margin-top: -26rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 1rem;
+  }
+
+  .Works .projectContainer2 .projectInfo {
+    align-items: center;
+  }
+
+  .Works .projectContainer .projectInfo .static {
+    position: relative;
+    left: auto;
+    margin: 0 auto;
+    max-width: 25rem;
+    width: unset;
+  }
+  .Works .projectContainer2 .projectInfo .static {
+    right: auto;
+  }
+
+  .Works .projectContainer .projectInfo .dynamic {
+    position: relative;
+    left: auto;
+    margin: 0 auto;
+    transform: translateX(0);
+  }
+  .Works .projectContainer .projectInfo .iconsContainer {
+    margin: 0 auto;
+  }
+  /*Contacts Responsive Style*/
+
+  .Contacts::before {
+    height: 7rem;
+  }
+}
+
+/*Mini Height style*/
+@media only screen and (max-height: 500px) {
+  .SideLinks {
+    height: 15rem;
+  }
+  .SideName {
+    bottom: 7rem;
+  }
+  .SideLinks .line {
+    display: none;
+  }
+}
+@media only screen and (max-height: 350px) {
+  .SideLinks {
+    display: none;
+  }
+  .SideName {
+    display: none;
+  }
+}

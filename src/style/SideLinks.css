@@ -1,0 +1,47 @@
+.SideLinks {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  height: 25rem;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+
+.SideLinks .el {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(70%);
+  transition: transform 0.8s, filter 0.5s;
+}
+
+.SideLinks .el:hover {
+  transform: scale(1.2) rotate(360deg);
+  cursor: pointer;
+  filter: invert(50%) sepia(80%) contrast(250%) hue-rotate(140deg);
+}
+
+.SideLinks .github {
+  background-image: url("./icons/github.svg");
+}
+
+.SideLinks .linkedIn {
+  background-image: url(".//icons/linkedin.svg");
+}
+
+.SideLinks .mail {
+  background-image: url("./icons/mail.svg");
+}
+.SideLinks .facebook {
+  background-image: url("./icons/facebook.svg");
+}
+
+.SideLinks .line {
+  width: 0.15rem;
+  height: 9rem;
+  background-color: var(--gray);
+}

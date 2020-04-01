@@ -1,0 +1,15 @@
+.SideName {
+  position: fixed;
+  bottom: 15rem;
+  right: -2.5rem;
+  color: var(--gray);
+  z-index: 1;
+  transform: rotate(90deg);
+}
+
+.SideName .name {
+  font-size: 1.3rem;
+  font-style: italic;
+  position: relative;
+  transform: rotateY(180deg) rotateX(180deg);
+}
