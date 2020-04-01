@@ -43,6 +43,7 @@ a {
   transition: all 0.5s;
   width: 13rem;
   text-align: center;
+  margin: 3rem;
 }
 
 .button:hover {
