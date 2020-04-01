@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.974654a1.chunk.css",
+    "main.js": "/portfolio/static/js/main.1a3f9174.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1a3f9174.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.999d3220.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.999d3220.js.map",
+    "static/js/2.099babd3.chunk.js": "/portfolio/static/js/2.099babd3.chunk.js",
+    "static/js/2.099babd3.chunk.js.map": "/portfolio/static/js/2.099babd3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.bea5fa8de49b139598de780c5b76ca4a.js": "/portfolio/precache-manifest.bea5fa8de49b139598de780c5b76ca4a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.974654a1.chunk.css.map": "/portfolio/static/css/main.974654a1.chunk.css.map",
+    "static/js/2.099babd3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.099babd3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/PlovdivSans.287d0ddd.otf",
+    "static/media/SideLinks.css": "/portfolio/static/media/mail.621fb1cc.svg",
+    "static/media/game.png": "/portfolio/static/media/game.79e19b80.png",
+    "static/media/Header.css": "/portfolio/static/media/logo.f9fe575b.png",
+    "static/media/About.css": "/portfolio/static/media/profile.6947aacd.jpg",
+    "static/media/txtEff.png": "/portfolio/static/media/txtEff.ff3ff702.png",
+    "static/media/Works.css": "/portfolio/static/media/web.c5324884.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.999d3220.js",
+    "static/js/2.099babd3.chunk.js",
+    "static/css/main.974654a1.chunk.css",
+    "static/js/main.1a3f9174.chunk.js"
+  ]
+}
