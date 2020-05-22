@@ -3,6 +3,7 @@
     left: -18rem;
   }
   .Works .projectContainer2 .static {
+    left: unset;
     right: -18rem;
   }
 }

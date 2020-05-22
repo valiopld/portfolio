@@ -19,7 +19,7 @@
 }
 .non-scrolled {
   height: 6rem;
-  box-shadow: 0 0.1rem 1rem;
+  /* box-shadow: 0 0.1rem 1rem; */
 }
 .scrolled {
   height: 3rem;

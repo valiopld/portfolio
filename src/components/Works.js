@@ -5,11 +5,27 @@ import Project from "./Project";
 
 import txtEffIMG from "../style/images/txtEff.png";
 import gamesIMG from "../style/images/game.png";
+import eLampIMG from "../style/images/e-lamp.png";
 
 export default function Works() {
   return (
     <div id="Works" className="Works">
       <div className="title">My Projects</div>
+      <Project
+        name="e-lamp commerce"
+        img={eLampIMG}
+        link="https://lamp-live.herokuapp.com/"
+        linkGit="https://github.com/valiopld/lamp-shop"
+        staticText="E-commerce React Application. Created during udemy react course."
+        dynamicText={
+          <div>
+            <p>- React</p>
+            <p>- redux, redux-saga, hooks</p>
+            <p>- firebase, heroku, </p>
+          </div>
+        }
+        reverse="yes"
+      />
       <Project
         name="txtEff Library"
         img={txtEffIMG}

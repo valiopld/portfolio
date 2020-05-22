@@ -13,7 +13,7 @@ export default function Contacts() {
       <div className="linksContainer">
         <div className="social">
           <span>E-mail: </span>
-          <span>FaceBook: </span>
+          <span>Facebook: </span>
           <span>LinkedIN: </span>
           <span>Twitter: </span>
         </div>
