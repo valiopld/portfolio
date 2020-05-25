@@ -15,7 +15,6 @@ export default function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollPosition);
   return (
     <div id="Home" className="Home">
       <h4>Hi, my name is</h4>

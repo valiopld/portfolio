@@ -12,7 +12,6 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {" "}
           Official WebSite
         </a>
       </p>
