@@ -27,3 +27,7 @@
   color: var(--gray);
   max-width: 30rem;
 }
+
+.button-container {
+  display: flex;
+}

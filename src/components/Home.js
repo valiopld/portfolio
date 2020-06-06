@@ -1,20 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../style/Home.css";
 
 export default function Home() {
-  const [scrollPosition, setSrollPosition] = useState(0);
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setSrollPosition(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
     <div id="Home" className="Home">
       <h4>Hi, my name is</h4>
@@ -26,9 +13,19 @@ export default function Home() {
         works with database, machine learning and еverything else that has to do
         with software engineering..
       </p>
-      <a href="mailto:valiopld@gmail.com" className="button">
-        Get in Touch
-      </a>
+      <div className="button-container">
+        <a href="mailto:dev.peshev@gmail.com" className="button">
+          Get in Touch
+        </a>
+        <a
+          href="http://valiopld.github.io/cv"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+        >
+          CV
+        </a>
+      </div>
     </div>
   );
 }

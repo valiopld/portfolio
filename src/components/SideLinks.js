@@ -10,7 +10,7 @@ export default function SideLinks() {
       <a target="_blanc" href="https://github.com/valiopld">
         <div className="el github" />
       </a>
-      <a href="mailto:valiopld@gmail.com">
+      <a href="mailto:dev.peshev@gmail.com">
         <div className="el mail" />
       </a>
       <a target="_blanc" href="https://www.facebook.com/johnnypeshev">

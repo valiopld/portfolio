@@ -18,7 +18,7 @@ export default function Contacts() {
           <span>Twitter: </span>
         </div>
         <div className="links">
-          <a href="mailto:valiopld@gmail.com">valiopld@gmail.com</a>
+          <a href="mailto:dev.peshev@gmail.com">dev.peshev@gmail.com</a>
           <a
             href="https://facebook.com/johnnypeshev"
             target="_blank"
@@ -42,7 +42,7 @@ export default function Contacts() {
           </a>
         </div>
       </div>
-      <a href="mailto:valiopld@gmail.com" className="button contactButton">
+      <a href="mailto:dev.peshev@gmail.com" className="button contactButton">
         Get in Touch
       </a>
     </div>

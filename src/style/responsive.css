@@ -126,6 +126,9 @@
   .Contacts::before {
     height: 7rem;
   }
+  .button-container {
+    flex-direction: column;
+  }
 }
 
 /*Mini Height style*/
